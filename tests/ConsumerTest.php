@@ -15,7 +15,7 @@ $consumer = new Dummy();
 $consumer->setNombre('Tania');
 $consumer->setApellido('Tovar');
 $result = $consumer->nombreCompleto();
-$this->assertEquals('Tovar Tania', $result);
+$this->assertEquals('Tania Tovar', $result);
     }
 
     /**
